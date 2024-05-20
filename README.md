@@ -6,5 +6,6 @@
 module "release" {
   source  = "aziz200115/release/helm"
   name = "testapplication
+  namespace = "testapp"
 }
 ```
